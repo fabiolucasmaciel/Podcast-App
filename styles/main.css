@@ -8,7 +8,7 @@
     --color-light-gray: #434449;
     --color-water-gray: #99aab5;
     --color-dark-gray: #23272a;
-    --color-darker-gray: #141414;
+    --color-darker-gray: #1d1d1d;
     --color-gray: #2c2f33;
 
     --color-link: #72708d;
@@ -30,7 +30,7 @@
     box-sizing: border-box;
 }
 body{
-    background: var(--color-black);
+    background-color: var(--color-darker-gray);
 }
 html{
     overflow-x:hidden;
