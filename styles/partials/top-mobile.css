@@ -1,3 +1,18 @@
 #top-mobile{
-    background-image: linear-gradient(to bottom right, #435183, #1d1d1d)
+    background-image: linear-gradient(to bottom right, #435183,#202742, #1d1d1d,#1d1d1d,#1d1d1d);
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+    height: 17rem;
+}
+#top-mobile h1{
+    color: var(--color-white);
+    font-family: Poppins;
+    font-size: 3rem;
+    margin-top: -1rem;
+}
+#top-mobile img{
+    margin-top: -8rem;
+    height: 3rem;
 }

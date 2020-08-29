@@ -1,0 +1,16 @@
+#header-mobile{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    bottom: 0;
+    position: fixed;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-color: var(--color-gray);
+}
+#header-mobile a{
+    color: white;
+    font-family: Poppins;
+    font-size: 2rem;
+    text-decoration: none;
+}
