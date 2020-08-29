@@ -1,0 +1,24 @@
+#top-mobile{
+    background-image: linear-gradient(to bottom right, #435183,#202742, #1d1d1d,#1d1d1d,#1d1d1d);
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+    height: 17rem;
+}
+#top-mobile h1{
+    color: var(--color-white);
+    font-family: Poppins;
+    font-size: 5rem;
+    left: 50%;
+    margin-left: -85px;
+    margin-top: 7rem;
+    position: absolute;
+}
+#top-mobile img{
+    margin-top: -8rem;
+    height: 3rem;
+}
+#seta{
+    margin-top: -5rem;
+}

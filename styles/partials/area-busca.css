@@ -1,0 +1,17 @@
+#area-busca{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#busca{
+    width: 100%;
+    height: 5rem;
+    border-radius: .3rem;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#busca p{
+    font-size: 2rem;
+    font-family: poppins;
+}

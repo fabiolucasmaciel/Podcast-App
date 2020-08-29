@@ -5,7 +5,7 @@
     bottom: 0;
     position: fixed;
     padding: 2rem;
-    background-color: var(--color-gray);
+    background-color: var(--color-dark-gray);
 }
 #header-mobile a{
     color: white;
