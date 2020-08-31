@@ -23,6 +23,9 @@
     font-size: 1.6rem;
     text-decoration: none;
 }
+.podcast-area p strong{
+    color: var(--color-light-blue);
+}
 figure{
     display: flex;
     align-items: center;
