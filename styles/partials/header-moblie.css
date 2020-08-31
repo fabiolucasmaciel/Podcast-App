@@ -11,6 +11,13 @@
 #header-mobile a{
     color: white;
     font-family: Poppins;
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-decoration: none;
+}
+
+.icon-area{
+   text-align: center;
+}
+#icon-menu{
+    height: 2.3rem;
 }

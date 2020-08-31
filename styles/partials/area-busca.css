@@ -14,4 +14,10 @@
 #busca p{
     font-size: 2rem;
     font-family: poppins;
+    color: var(--color-black);
+}
+#busca img{
+    height: 2rem;
+    margin-bottom: -.3rem;
+    margin-right: 1rem;
 }

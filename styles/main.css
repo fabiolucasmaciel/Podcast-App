@@ -40,3 +40,6 @@ html{
         font-size: 70%;
     }
 }
+a{
+    text-decoration: none;
+}

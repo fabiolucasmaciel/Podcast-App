@@ -1,0 +1,32 @@
+#form-busca{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    align-items: center;
+    height: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: var(--color-gray);
+}
+#form-busca #back{
+    width: 10vw;
+}
+#form-busca #epsodio{
+    width: 60vw;
+    height: 60%;
+    padding: 1rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 2rem;
+    font-family: Poppins;
+}
+#form-busca #btn-pesquisa{
+    width: 25vw;
+    height: 60%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 2rem;
+    font-family: Poppins;
+}
