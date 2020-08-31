@@ -1,16 +1,16 @@
 {
-    "name": "Podcast da galera",
-    "short_name": "Podcast da galera",
+    "name": "",
+    "short_name": "",
     "icons": [
         {
-            "src": "./icon.png",
+            "src": "icon.png",
             "sizes": "144x144"
         }
     ],
     "display": "standalone",
-    "scope": "/",
+    "scope": "index.html",
     "start_url": "./?homescreen=true",
     "orientation": "portrait",
     "theme_color": "#435183",
-    "background_color": "#2c2f33"
+    "background_color": "#23272a"
 }
