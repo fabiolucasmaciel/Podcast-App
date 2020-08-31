@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="styles\partials\top-mobile-index.css">
     <link rel="stylesheet" href="styles\partials\header-moblie.css">
     <link rel="stylesheet" href="styles\partials\podcast-mini.css">
+    <link rel="stylesheet" href="styles/partials/muda-hide.css">
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bangers:wght@400;600&amp;display=swap" rel="stylesheet">
@@ -35,7 +36,7 @@
     <div id="container">
         <header id="header-mobile">
             <div id="podcasts-area">
-                <a href="index.html">Podcasts</a>
+                <a href="#">Podcasts</a>
             </div>
             <div id="pesquisa-area">
                 <a href="search.html">Buscar</a>
@@ -47,16 +48,19 @@
                 <a href="info.html">Info</a>
             </div>
         </header>
-        <header id="header-desk">
-
-        </header>
+        
         <main>
             <section id="top-mobile">
                 <h1>
                     Bom dia
                 </h1>
-                <img src="images/icons/engrenagem.png" alt="engrangem">
+                <img src="images/icons/engrenagem.png" alt="engrangem" id="engrenagem">
             </section>
+
+            <section id="muda-hide" style="display: none;">
+                <a href="index-img.html">Visualizar com imagem</a>
+            </section>
+
             <section id="podcast-mini">
 
                 <article class="podcast-area">
@@ -123,4 +127,5 @@
 
     </div>
 </body>
+<script src="scripts/muda-hide.js"></script>
 </html>

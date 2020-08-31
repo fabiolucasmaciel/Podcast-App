@@ -6,7 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Podcast da galera</title>
 
+    <!-- meta tag-1 -->
+    <meta name="description" content="Site do podcast da galera, o melhor podcast do brasil, segundo a mãe dos integrantes.">
+    <meta name="keywords" content="podcast, podcast da galera">
+    <meta name="author" content="Fábio Lucas M.S.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scaleble= yes, minimum-scale=0.4, maximum-scale=2.5">
+    <!-- meta tag-2 -->
+    <meta property="og:description" content="Site do podcast da galera, o melhor podcast do brasil, segundo a mãe dos integrantes.">
+    <meta property="og:title" content="Podcast da galera | O melhor podcast do brasil, segundo a mãe dos integrantes">
+    <meta property="og:site_name" content="Podcast da galera">
+    <meta property="og:url" content="">
+
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles\partials\top-mobile-index.css">
+    <link rel="stylesheet" href="styles\partials\header-moblie.css">
+    <link rel="stylesheet" href="styles\partials\podcasts-img.css">
+    <link rel="stylesheet" href="styles/partials/muda-hide.css">
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bangers:wght@400;600&amp;display=swap" rel="stylesheet">
@@ -17,9 +32,98 @@
     <script src="./pwa.dev.min.js"></script>
     <script> if (navigator.serviceWorker) { navigator.serviceWorker.register ('./sw.js') } </script>
 </head>
-<body id="page-landing">
+<body id="page-landing" style="padding-bottom: 6rem;">
     <div id="container">
+        <header id="header-mobile">
+            <div id="podcasts-area">
+                <a href="#">Podcasts</a>
+            </div>
+            <div id="pesquisa-area">
+                <a href="search-img.html">Buscar</a>
+            </div>
+            <div id="podcasts-area">
+                <a href="contato.html">Contato</a>
+            </div>
+            <div id="pesquisa-area">
+                <a href="info.html">Info</a>
+            </div>
+        </header>
+        
+        <main>
+            <section id="top-mobile">
+                <h1>
+                    Bom dia
+                </h1>
+                <img src="images/icons/engrenagem.png" alt="engrangem" id="engrenagem">
+            </section>
+
+            <section id="muda-hide" style="display: none;">
+                <a href="index.html">Visualizar em lista</a>
+            </section>
+
+            <section id="podcasts" style="margin-top:-4rem">
+                <a href="eps/03.html">
+                    <article class="small-podcast" id="last-podcast">
+                        <figure>
+                            <img src="images/podcasts/pc03.jpg" alt="03-podcast">
+                            <figcaption>
+                                <p><strong>Podcast 03</strong> <small>há 0 dias atrás</small></p>
+                                <h1>Novas experiencias</h1>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </a>
+                <a href="eps/02.html">
+                    <article class="huge-podcast" id="penultimo-podcast">
+                        <figure>
+                            <img src="images/podcasts/pc02.jpg" alt="02-podcast">
+                            <figcaption>
+                                <p><strong>Podcast 02</strong> <small>há 7 dias atrás</small></p>
+                                <h1>Apocalipse: escolha o seu preferido</h1>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </a>
+
+                <div class="alinhar-podcast">
+                    <a href="eps/01.html">
+                        <article class="small-podcast" id="antigo-podcast">
+                            <figure>
+                                <img src="images/podcasts/pc01.jpg" alt="01-podcast">
+                                <figcaption>
+                                    <p><strong>Podcast 01</strong> <small>há 14 dias atrás</small></p>
+                                    <h1>Histórias e afins</h1>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </a>
+                    <a href="eps/01.html">
+                        <article class="small-podcast" id="mais-antigo-podcast">
+                            <figure>
+                                <img src="images/podcasts/pc00.jpg" alt="00-podcast">
+                                <figcaption>
+                                    <p><strong>Podcast 00</strong> <small>há 18456 dias atrás</small></p>
+                                    <h1>A trança do careca</h1>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </a>
+                    <a href="eps/01.html">
+                        <article class="small-podcast" id="mega-antigo-podcast">
+                            <figure>
+                                <img src="images/podcasts/pc-01.jpg" alt="-01-podcast">
+                                <figcaption>
+                                    <p><strong>Podcast -01</strong> <small>há 10000 anos atrás</small></p>
+                                    <h1>Poeira em alto mar</h1>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </a>
+                </div>
+            </section>
+        </main>
 
     </div>
 </body>
+<script src="scripts/muda-hide.js"></script>
 </html>

@@ -1,0 +1,15 @@
+#muda-hide{
+    background-color: var(--color-dark-gray);
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    margin-top: -90px;
+}
+#muda-hide a{
+    display: block;
+    padding: 1.5rem;
+    color: var(--color-white);
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 1.8rem;
+}

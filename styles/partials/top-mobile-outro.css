@@ -9,9 +9,9 @@
 #top-mobile h1{
     color: var(--color-white);
     font-family: Poppins;
-    font-size: 5rem;
+    font-size: 4.5rem;
     left: 50%;
-    margin-left: -85px;
+    margin-left: -80px;
     margin-top: 7rem;
     position: absolute;
 }

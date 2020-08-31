@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles\partials\top-mobile-outro.css">
     <link rel="stylesheet" href="styles\partials\header-moblie.css">
+    <link rel="stylesheet" href="styles/partials/muda-hide.css">
     <link rel="stylesheet" href="styles\partials\area-busca.css">
     <link rel="stylesheet" href="styles\partials\podcast-mini.css">
     
@@ -35,7 +36,7 @@
                     <a href="index.html">Podcasts</a>
                 </div>
                 <div id="pesquisa-area">
-                    <a href="search.html">Buscar</a>
+                    <a href="#">Buscar</a>
                 </div>
                 <div id="podcasts-area">
                     <a href="contato.html">Contato</a>
@@ -43,9 +44,6 @@
                 <div id="pesquisa-area">
                     <a href="info.html">Info</a>
                 </div>
-            </header>
-            <header id="header-desk">
-    
             </header>
             <main>
                 <section id="top-mobile">
@@ -55,7 +53,11 @@
                     <h1>
                         Buscar
                     </h1>
-                    <img src="images/icons/engrenagem.png" alt="engrangem">
+                    <img src="images/icons/engrenagem.png" alt="engrangem" id="engrenagem">
+                </section>
+
+                <section id="muda-hide" style="display: none;">
+                    <a href="search-img.html">Visualizar com imagem</a>
                 </section>
 
                 <section id="area-busca">
@@ -131,4 +133,5 @@
         </div>
     </body>
 <script src="scripts/back.js"></script>
+<script src="scripts/muda-hide.js"></script>
 </html>

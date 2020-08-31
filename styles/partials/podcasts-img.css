@@ -1,0 +1,61 @@
+.huge-podcast figure img{
+    width: 100vw;
+}
+.huge-podcast figure figcaption{
+    color: var(--color-white);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    position: absolute;
+    height: 11.8rem;
+    width: 100vw;
+    margin-top: -11.7rem;
+    background-image: linear-gradient( rgba(0, 0, 0, 0), black);
+    transition: background-image .4s;
+    margin-bottom: 1rem;
+}
+.huge-podcast:hover figcaption{
+    background-image: linear-gradient( rgba(0, 0, 0, 0), #1b2136);
+}
+.huge-podcast figure figcaption p{
+    font-size: 1.35rem;
+    font-family: poppins;
+    text-shadow: .15rem .15rem black;
+    margin-top: -1.5rem;
+}
+.huge-podcast figure figcaption h1{
+    font-size: 3rem;
+    font-family: Poppins;
+    text-shadow: .3rem .2rem black;
+}
+
+.small-podcast figure img{
+    width: 100vw;
+}
+.small-podcast figure figcaption{
+    color: var(--color-white);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    position: absolute;
+    height: 7.8rem;
+    width: 100vw;
+    margin-top: -7.8rem;
+    background-image: linear-gradient( rgba(0, 0, 0, 0), black);
+    transition: .4s;
+}
+.small-podcast:hover figcaption{
+    background-image: linear-gradient( rgba(0, 0, 0, 0), #1b2136);
+}
+.small-podcast figure figcaption p{
+    font-size: 1.35rem;
+    margin-top: -1rem;
+    font-family: poppins;
+    text-shadow: .15rem .15rem black;
+}
+.small-podcast figure figcaption h1{
+    font-size: 3rem;
+    font-family: Poppins;
+    text-shadow: .3rem .2rem black;
+}
+
