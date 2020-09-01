@@ -11,10 +11,25 @@
     font-family: Poppins;
     font-size: 4.5rem;
     left: 50%;
-    margin-left: -80px;
+    margin-left: -85px;
     margin-top: 7rem;
     position: absolute;
 }
+
+#top-mobile h1::after{
+    content: "|";
+    opacity: 1;
+    animation: pisca .75s infinite;
+}
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
 #top-mobile img{
     margin-top: -8rem;
     height: 3rem;

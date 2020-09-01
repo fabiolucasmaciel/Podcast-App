@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles\partials\top-mobile-outro.css">
     <link rel="stylesheet" href="styles\partials\header-moblie.css">
+    <link rel="stylesheet" href="styles\partials\form-contato.css">
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bangers:wght@400;600&amp;display=swap" rel="stylesheet">
@@ -64,13 +65,25 @@
             <div id="seta">
                 <img src="images/icons/back-white.png" alt="seta" id="back">
             </div>
-            <h1 style="margin-left:-89.8px;">
+            <h1 style="margin-left:-95px;" id="titul" style="visibility:hidden">
                 Contato
             </h1>
             <img src="images/icons/engrenagem.png" alt="engrangem" style="visibility:hidden">
         </section>
 
+        <section id="msg">
+                <div id="form-msg">
+                    <form action="#" method="post">
+                        <input type="text" name="nome" class="input-form" placeholder="Nome"><br>
+                        <input type="email" name="email" class="input-form" placeholder="Email"><br>
+                        <textarea name="textarea" id="" cols="25" rows="5" class="input-form" placeholder="Mensagem..."></textarea>
+                        <input type="submit" value="Enviar mensagem" id="btn-enviar">
+                    </form>
+                </div>
+            </section>
+
     </div>
 </body>
 <script src="scripts/back.js"></script>
+<script src="scripts/titul-writer.js"></script>
 </html>

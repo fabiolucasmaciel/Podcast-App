@@ -33,7 +33,7 @@
     <script src="./pwa.dev.min.js"></script>
     <script> if (navigator.serviceWorker) { navigator.serviceWorker.register ('./sw.js') } </script>
 </head>
-<body id="page-landing" style="padding-bottom: 6rem;">
+<body id="page-landing" style="padding-bottom: 6rem;" onload="carregar()">
     <div id="container">
         <header id="header-mobile">
             <div class="icon-area">
@@ -68,8 +68,8 @@
         
         <main>
             <section id="top-mobile">
-                <h1>
-                    Bom dia
+                <h1 id="horario">
+                    
                 </h1>
                 <img src="images/icons/engrenagem.png" alt="engrangem" id="engrenagem">
             </section>

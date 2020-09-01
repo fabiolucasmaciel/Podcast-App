@@ -12,6 +12,22 @@
     font-size: 4rem;
     margin-top: -1rem;
 }
+
+#top-mobile h1::after{
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca 1s infinite;
+}
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
 #top-mobile img{
     margin-top: -8rem;
     height: 3rem;
