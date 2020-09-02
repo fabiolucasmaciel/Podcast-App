@@ -21,13 +21,13 @@ function carregar(){
 
     function typeWriter(frase){
         let fraseArray = frase.split('')
+        msg.innerHTML = ""
             fraseArray.forEach((letra, i) => {
                 setTimeout(function(){
                     msg.innerHTML += letra
                 }, 100 * i)
         })
     }
-
 }
 
 /*function carregar(){

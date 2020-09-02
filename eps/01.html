@@ -18,6 +18,7 @@
     <meta property="og:url" content="">
 
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles\partials\top-mobile-podcast.css">
     <link rel="stylesheet" href="../styles/partials/podcast-listening.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
@@ -25,10 +26,16 @@
 
     <link rel="shortcut icon" href="../images/podcasts/favicon/pc01-favicon.jpg" type="image/x-icon">
 </head>
-<body id="page-landing" style="background-image: linear-gradient( #b5dc1d,#1d1d1d,#1d1d1d); height: 100vh;">
+<body id="page-landing" onload="upFX()">
     <div id="container">
+    <section id="top-mobile">
+        <h1 id="horario">
+        </h1>
+        <img src="../images/icons/engrenagem.png" alt="engrangem" id="engrenagem" style="transition: .37s;">
+    </section>
+    <div id="podcast" style="background-image: linear-gradient( #b5dc1d,#1d1d1d,#1d1d1d);height: 100vh; transition: .8s">
         <div id="seta">
-            <img src="../images/icons/back-white.png" alt="seta" id="back">
+            <img src="../images/icons/down-arrow.png" alt="seta" id="back">
         </div>
 
         <main>
@@ -37,7 +44,7 @@
                     <img src="../images/podcasts/pc01.jpg" alt="Histórias e afins">
                 </div>
                 <div id="txt">
-                    <h1><strong style="color: #b5dc1d;">Ep01</strong> - Histórias e afins</h1>
+                    <h1><strong style="color: #b5dc1d;">Ep01</strong> • Histórias e afins</h1>
                     <p>No primeiro epsodio do podcast nos contamos histórias engraçadas e tristes das nossas vidas.</p><br>
                     <p style="color: #b5dc1d;">30 minutos • 1 de setembro de 2020</p>
                 </div>
@@ -50,7 +57,9 @@
 
         </main>
     </div>
+</div>
 </body>
-<script src="../scripts/back.js"></script>
+<script src="../scripts/back-down.js"></script>
 <script src="../scripts/menu.js"></script>
+<script src="../scripts/listening-fx.js"></script>
 </html>

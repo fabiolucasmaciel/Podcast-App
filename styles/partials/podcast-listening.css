@@ -1,19 +1,11 @@
 #seta{
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 3rem;
+    padding: 3rem;
 }
 #back{
-    width: 4.5rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     transition: .4s;
     cursor: pointer;
-}
-#back:hover{
-    margin-top: -.25rem;
-    width: 6rem;
-    height: 5rem;
-    opacity: .5;
 }
 
 /*parte do texto*/
@@ -21,11 +13,12 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-    padding: 3rem;
-    padding-top: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
 }
 #img-podcast img{
+    border-radius: 1rem;
     width: 31.5rem;
     height: 31.5rem;
     object-fit: cover;
@@ -48,8 +41,9 @@
 
 /*parte do audio*/
 #audio-podcast{
-    background-color: var(--color-black);
-    padding: 1.5rem;
+    background-color: #f1f3f4;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     bottom: 0;
     position: fixed;
     width: 100vw;
