@@ -14,6 +14,8 @@ function carregar(){
         typeWriter(frase)
     }else if(hora >= 00 && hora < 6){
         let frase = "Boa madrugada"
+        msg.style.fontSize = "3.45rem"
+        msg.style.marginTop = "0"
         typeWriter(frase)
     }
 

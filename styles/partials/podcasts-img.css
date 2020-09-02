@@ -59,3 +59,6 @@
     text-shadow: .3rem .2rem black;
 }
 
+figure figcaption p strong{
+    color: var(--color-light-blue)
+}
